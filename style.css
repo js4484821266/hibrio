@@ -1,6 +1,16 @@
 section{
     background-color: #0038b8;
     color: #fff;
-    text-align: center;
-    width: 100%;
+}
+p#marquee{
+    animation: mrq 10s infinite;
+}
+@keyframes mrq{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+        transform: translateX(-100%);
+    }
 }
