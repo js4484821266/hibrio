@@ -4,6 +4,7 @@ section{
 }
 p#marquee{
     animation: mrq 5s infinite linear;
+    white-space: nowrap;
 }
 @keyframes mrq{
     0%{
