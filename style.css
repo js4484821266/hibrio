@@ -3,7 +3,7 @@ section{
     color: #fff;
 }
 p#marquee{
-    animation: mrq 10s infinite;
+    animation: mrq 5s infinite linear;
 }
 @keyframes mrq{
     0%{
