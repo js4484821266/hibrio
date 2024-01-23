@@ -1,8 +1,10 @@
 section{
     background-color: #0038b8;
     color: #fff;
+    position: relative;
 }
 span#marquee{
+    position: absolute;
     animation: mrq 5s infinite linear;
     white-space: nowrap;
 }
