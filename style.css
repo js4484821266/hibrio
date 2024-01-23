@@ -6,6 +6,7 @@ span#marquee{
     position: relative;
     animation: mrq 5s infinite linear;
     white-space: nowrap;
+    overflow: hidden;
 }
 @keyframes mrq{
     0%{
