@@ -7,7 +7,7 @@ section{
 }
 span#marquee{
     position: relative;
-    animation: mrq 7s infinite linear;
+    animation: mrq 10s infinite linear;
 }
 @keyframes mrq{
     0%{
